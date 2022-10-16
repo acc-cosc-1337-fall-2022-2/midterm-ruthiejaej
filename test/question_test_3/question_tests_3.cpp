@@ -8,5 +8,7 @@ TEST_CASE("Verify Test Configuration", "verification") {
 
 TEST_CASE("test")
 {
-	REQUIRE(test_config() == true);
+	REQUIRE(find_gcd(15, 25) == 5 );
+	REQUIRE(find_gcd(16, 32) == 16 );
+	REQUIRE(find_gcd(159, 309) == 3 );
 }
